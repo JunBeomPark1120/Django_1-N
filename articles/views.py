@@ -61,7 +61,7 @@ def comment_create(request, article_id):
         # 첫 번째 방법
         # article_id을 기준으로 article obj을 가져와서
         # article = Article.objects.get(id=article_id)
-        # # article 컬럼에 추가
+        # article 컬럼에 추가
         # comment.article = article
         
         # 두 번째 방법
