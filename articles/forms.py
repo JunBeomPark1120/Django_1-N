@@ -18,3 +18,5 @@ class CommentForm(forms.ModelForm):
         
         # exclude => 제외할 필드 이름 목록
         exclude = ('article',)
+        
+        
